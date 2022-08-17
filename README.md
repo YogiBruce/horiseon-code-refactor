@@ -7,5 +7,5 @@ Link: [Horizon Social Solution Services](https://yogibruce.github.io/horiseon-co
 
 
 <div align="center">
-<img src="assets/images/Screenshot.png" width ="400px"/>
+<img src="assets/images/Screenshot.png" width ="500px"/>
 </div>
