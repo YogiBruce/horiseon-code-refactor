@@ -12,7 +12,7 @@
 #
 #
 ### Description
-    The goal was to refactor the code to add semantic elements with the goal of building accessibility. Non working links were debugged. 
+#### The code was refactored to add semantic elements with the goal of building accessibility. Non working links were debugged and redundant CSS simplified. "Divs" were used within aside to denote divisions between paragraphs and their associated images, all other "divs" were changed to better functioning semantics. 
 
 
 
