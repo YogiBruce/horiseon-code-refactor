@@ -1,13 +1,16 @@
+/*This sets baseline margin and padding for the whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This sets background color for the whole page*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Styles the selector of .header which is the header class*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*Styles h1 within class .header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Styles just id .seo in the h1 of class .header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Styles navigation block and floats it to the right*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/*Removes any list icon from unordered list of navigation bar*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*Sets the margin and horizontally aligns list items of the nav bar */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Text color of anchor tag hyperlinks*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Text sizing for all paragraph elements used below*/
 p {
     font-size: 16px;
 }
 
+/*Sizes background photo. Because background photo is not "content" it can be linked in CSS as part of page style*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,46 @@ p {
     background-position: center;
 }
 
+/*Articles with class .float-left will float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Articles with class .float-right will float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Main section of page is given class selector of .content and set for 75% of display*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Styles article blocks within main section*/
+.articles {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sizes article images*/
+.articles img {
+    max-height: 200px;
+}
+
+/*Sizes and spaces article headers*/
+.articles h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Styling for aside with class selector .benefits was moved below main section */ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,71 +121,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*This gives style to the three divs within the aside*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*This styles headers within the divs*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*This sizes and styles the images within the aside*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*This styles the footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -158,6 +148,7 @@ article h2 {
     text-align: center;
 }
 
+/*This styles the header within the footer*/
 .footer h2 {
     font-size: 20px;
 }
